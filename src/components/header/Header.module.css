@@ -12,7 +12,6 @@
   margin: 12px;
 }
 .headerLeft {
-  /* font-family: "Roboto", sans-serif; */
   font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 600;
@@ -22,7 +21,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /* padding: 12px 20px 12px 20px; */
+
   padding: 5px;
   background-color: #fff;
   margin: 12px;

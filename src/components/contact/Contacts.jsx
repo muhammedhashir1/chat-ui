@@ -89,7 +89,7 @@ const Contacts = () => {
 
   const handleContactClick = (index, name) => {
     setSelectedContactIndex(index);
-    setSelectedContactName(name); // Update the selected contact's name
+    setSelectedContactName(name);
   };
 
   return (
