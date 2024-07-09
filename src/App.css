@@ -1,0 +1,14 @@
+.app-container {
+  /* width: 100%; */
+  height: 100vh;
+  max-width: 1280px;
+  margin: auto;
+  background-color: #f9f9f9;
+  display: grid;
+  grid-template-columns: 0.75fr 3fr;
+  grid-template-rows: 0.26fr 0.26fr 3fr;
+  grid-template-areas:
+    "header chat-name"
+    "header chat-page"
+    "contact chat-page";
+}

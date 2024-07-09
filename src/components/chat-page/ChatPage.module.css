@@ -1,0 +1,43 @@
+.chatPageMain {
+  grid-area: chat-page;
+  background-color: #f9f9f9;
+  width: 938px;
+  height: 100vh;
+  border: 1px solid #e4e4e4;
+  display: flex;
+  flex-direction: column;
+}
+
+.chatPage {
+  flex: 1;
+  overflow-y: auto;
+  padding: 12px;
+}
+
+.chatBar {
+  background-color: #eaeaea;
+  padding: 10px;
+  border-top: 1px solid #e4e4e4;
+}
+
+.typingbar {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.chatbar {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  outline: none;
+  margin-right: 10px;
+}
+
+.sendButton {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
